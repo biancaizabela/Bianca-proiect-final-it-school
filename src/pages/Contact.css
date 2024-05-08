@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width:50vw;
+    height: 100px;
+
+    float: left;
+    
+}
+
+.second {
+    width: 50vw;
+    height: 100px;
+
+    float: right;
+}
