@@ -8,7 +8,7 @@ export function Contact() {
     <>
       <Layout>
 
-      <div>
+      <div className="d-flex">
       <div className="first">
         <ul>
           <li>

@@ -3,16 +3,9 @@
     padding: 0;
 }
 .first{
-    width:50vw;
-    height: 100px;
-
-    float: left;
-    
+    width:50%; 
 }
 
 .second {
-    width: 50vw;
-    height: 100px;
-
-    float: right;
+    width: 50%;
 }
