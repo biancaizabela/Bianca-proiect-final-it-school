@@ -1,3 +1,4 @@
-# itschool-proiect-final-template
+# itschool-proiect-final-Bianca
 
-Template de React ce poate fi folosit pentru a incepe proiectul final
+
+
