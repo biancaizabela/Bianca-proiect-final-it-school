@@ -2,16 +2,16 @@ header {
 	position: sticky;
 	top: 0;
 	z-index: 2;
-	background-color: rgb(150, 185, 197);
+	background-color: 49243E;
 	display: flex;
   padding: 25;
 }
 
 header a {
-  color: black;
+  color: BB8493;
   font-size: 30px;
-  padding: 25;
-  font-family: "Playfair";
+  padding: 25px;
+  font-family: "Teachers", sans-serif;
   justify-content: space-evenly;
 }
 
@@ -29,17 +29,18 @@ header a {
     padding: 0;
   }
   
-  .Header .nav img {
+  .Header img {
     display: flex;
     justify-content: flex-start;
     width: auto;
     height: 100px;
- 
   }
+
   
   .Header .menu-icon {
     display: none;
     cursor: pointer;
+    color: BB8493;
   }
   
   .Header .custom-dropdown-menu {
@@ -47,9 +48,10 @@ header a {
     justify-content: flex-end;
   }
   
-  .Header .nav a:hover {
-    color: white;
+  .Header a:hover {
+    color: DBAFA0;
   }
+
   
   @media (max-width: 768px) {
     .Header .nav img {
@@ -69,13 +71,16 @@ header a {
     }
   
     .Header .display-mobile-menu {
-      background-color:rgb(150, 185, 197);
+      background-color:704264;
       display: block;
       width: 100%;
-  
       position: fixed;
-      top: 77px;
+      top: 115px;
       left: 0;
-  ;
     }
+  }
+
+  .Header .display-mobile-menu a {
+    font-size: 25px;
+
   }

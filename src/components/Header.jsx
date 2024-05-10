@@ -18,14 +18,14 @@ export function Header() {
 
   return (
     <header className="Header">
-      <nav className="nav w-100" >
+      <nav className="w-100" >
         <div className="d-flex justify-content-between align-items-center">
 
         <Link to="/" className="p-2">
         <div className="logo" style={{ display: "flex", alignItems: "left" }}>
     				<img src="https://seeklogo.com/images/A/adalet-logo-551A396F76-seeklogo.com.png" 
         			alt="lawyer logo" 
-        			style={{ width: "50px", height: "auto" }} 
+        			style={{ width: "60px", height: "auto" }} 
     				/>
 				</div>
           </Link>
@@ -33,7 +33,7 @@ export function Header() {
           <div className="menu-icon-container" style={{alignItems: "right"}}>
             <span
               onClick={handleMenuClick}
-              className="material-icons menu-icon text-light"> Menu 
+              className="material-symbols-outlined menu-icon"> Menu 
             </span> 
             
             <ul className={dropdownMenuClasses}>

@@ -3,9 +3,33 @@
     padding: 0;
 }
 .first{
-    width:50%; 
+    width:50%;
+    padding: 10px;
 }
 
 .second {
     width: 50%;
+    padding: 10px;
+
 }
+
+.first ul li {
+	display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    display: flex;
+    font-family: "Teachers", sans-serif;
+    font-size: 1.2rem;
+}
+
+.contact a:hover {
+	font-family: "Teachers", sans-serif;
+	color: #BB8493;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+	}}

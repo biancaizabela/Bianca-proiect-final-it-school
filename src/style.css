@@ -5,20 +5,19 @@
 
 body {
 	margin: auto;
-	font-family: "Playfair";
-	color: purple;
+	font-family: "Teachers", sans-serif;
 	background-color: white;
 }
 
 h1, h2, h3, h4 {
-	font-family: "Playfair";
+	font-family: "Teachers", sans-serif;
 	font-weight: 900;
 	font-size: 1.5rem;
 
 }
 
 p, li {
-	font-family: "Playfair";
+	font-family: "Teachers", sans-serif;
 	font-size: 1.2rem;
 	
 }
@@ -36,7 +35,7 @@ main {
 
 
 footer {
-	background-color: rgb(150, 185, 197);
+	background-color: 49243E;
 	position: bottom;
 	bottom: 0;
 	z-index: 2;
@@ -46,15 +45,20 @@ footer {
 	text-align: center;
 } 
 
-footer a{
-	font-family: "Playfair";
+footer a {
+	font-family: "Teachers", sans-serif;
+	color: #BB8493;
   }
+
+footer a:hover {
+	color: DBAFA0;
+}
 
 /* header a,
 footer a{
   color: black;
   font-size: 20px;
-  font-family: "Playfair";
+  font-family: "Teachers", sans-serif;
 } */
 
 /* header {
@@ -70,5 +74,11 @@ h2 {
 	border-radius: .375rem;
 }
 
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 

@@ -4,7 +4,7 @@ import { Footer } from "./Footer";
 
 export function Layout(props) {
 	return (
-		<div>
+		<div className="main-container">
 			<Header />
 			{/* Afisam pe ecran copiii pe care Layout ii primeste la instantiere. */}
 			<main className="container">{props.children}</main>

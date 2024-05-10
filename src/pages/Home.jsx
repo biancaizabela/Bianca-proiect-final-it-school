@@ -7,10 +7,11 @@ export function Home() {
 		<>
 			{/* Instantiem Layout, dându-i copii. */}
 			<Layout>
-				<h1> Welcome to Colcer și Asociații! </h1>
+				<h1> Welcome to Colcer și Asociații! </h1> <br></br>
+				
 				<h2>
 				Colcer și Asociații is a leading Romanian law firm, involved in many of the most complex projects in the country.
-				</h2>
+				</h2> <br></br>
 
 				<h3> Colcer și Asociații team of lawyers includes a mix of highly experienced lawyers with in-depth knowledge of the Romanian market and of the specific regulatory and economic local environment. </h3>
 
@@ -19,7 +20,7 @@ export function Home() {
         			alt="lawyer" 
         			style={{ width: "500px", height: "auto", borderRadius: "15px" }} 
     				/>
-				</div>
+				</div> <br></br>
 
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae hic fugiat atque quidem eius molestiae vel repellendus aperiam, eligendi ipsam quas quia eveniet perferendis suscipit totam numquam maxime eum animi.
