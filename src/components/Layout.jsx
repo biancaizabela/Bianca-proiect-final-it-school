@@ -6,7 +6,6 @@ export function Layout(props) {
 	return (
 		<div className="main-container">
 			<Header />
-			{/* Afisam pe ecran copiii pe care Layout ii primeste la instantiere. */}
 			<main className="container">{props.children}</main>
 			<Footer />
 		</div>

@@ -30,6 +30,10 @@
 }
 
 @media (max-width: 768px) {
-    .contact {
+    .d-flex {
         flex-direction: column;
 	}}
+
+    .d-flex {
+        gap:50px;
+    }

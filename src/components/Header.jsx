@@ -38,8 +38,7 @@ export function Header() {
             
             <ul className={dropdownMenuClasses}>
               <li className={isDisplayed ? "container" : null}>
-              <Link to="/"> Home 
-              </Link>
+              <Link to="/"> Home </Link>
 
               </li>
 
@@ -60,20 +59,6 @@ export function Header() {
 
 
             </div>
-
-
-
-
-{/*
-      <Link to="/" className="p-3"> Home </Link>
-
-      
-       Aici sa adaugati link-uri catre paginile voastre 
-      
-      <Link to="/about"> About us </Link>
-      <Link to="/expertise"> Our expertise </Link>
-      <Link to="/contact"> Contact </Link>
-*/}
         </div>
       </nav>
     </header>

@@ -9,7 +9,7 @@ export function Contact() {
     <>
       <Layout>
       <h1> Contact us! </h1> <br></br>
-        <div className="d-flex">
+        <div className="d-flex justify-content-center">
           <div className="first">
             <ul>
               <li>
