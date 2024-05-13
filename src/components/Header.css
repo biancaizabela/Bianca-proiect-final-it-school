@@ -2,17 +2,18 @@ header {
 	position: sticky;
 	top: 0;
 	z-index: 2;
-	background-color: 49243E;
+	background-color: #49243E;
 	display: flex;
   padding: 5;
 }
 
 header a {
-  color: BB8493;
-  font-size: 30px;
+  color: #BB8493;
+  font-size: 20px;
   padding: 25px;
   font-family: "Teachers", sans-serif;
   justify-content: space-evenly;
+  text-decoration: none;
 }
 
 
@@ -40,7 +41,7 @@ header a {
   .Header .menu-icon {
     display: none;
     cursor: pointer;
-    color: BB8493;
+    color: #BB8493;
   }
   
   .Header .custom-dropdown-menu {
@@ -49,7 +50,7 @@ header a {
   }
   
   .Header a:hover {
-    color: DBAFA0;
+    color: #DBAFA0;
   }
 
   
@@ -71,11 +72,11 @@ header a {
     }
   
     .Header .display-mobile-menu {
-      background-color:704264;
+      background-color: #704264;
       display: block;
       width: 100%;
       position: fixed;
-      top: 115px;
+      top: 90px;
       left: 0;
     }
   }

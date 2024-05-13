@@ -2,7 +2,7 @@ import { useState } from 'react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Header.css";
-
+import logo from '../assets/logo.png';
 
 export function Header() {
   const [isDisplayed, setIsDisplayed] = useState(false);
@@ -18,12 +18,12 @@ export function Header() {
 
   return (
     <header className="Header">
-      <nav className="w-100" >
+      <nav className="container" >
         <div className="d-flex justify-content-between align-items-center">
 
         <Link to="/" className="p-2">
         <div className="logo" style={{ display: "flex", alignItems: "left" }}>
-    				<img src="https://seeklogo.com/images/A/adalet-logo-551A396F76-seeklogo.com.png" 
+    				<img src={logo} 
         			alt="lawyer logo" 
         			style={{ width: "60px", height: "auto" }} 
     				/>
